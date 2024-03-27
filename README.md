@@ -1,9 +1,13 @@
-Threads
+### Threads
 
-O portscanner mais rápido do mundo.  
+**The fastest portscanner**
 
-Peguei o código do Threader3000 e simplifiquei bastante, deixando o input e output melhores para automações
+I took the code from Threader3000 and simplified it quite a bit, improving the input and output for automations.
 
-OBSERVAÇÃO: Usar apenas em VPS ou diminuir o valor do range (500)
+NOTE: Use only on VPS or decrease the range value (500).
 
 Credits to the original tool: https://github.com/dievus/threader3000
+
+![image](https://github.com/paulogmota/threads/assets/44026675/cd08f8b8-0f38-46db-af27-42c23b836e00)
+
+
