@@ -30,9 +30,9 @@ def main():
        try:
           portx = s.connect((t_ip, port))
           with print_lock:
-             print("{} open".format(port))
-             discovered_ports.append(str(port))
-          portx.close()
+              print(f"{t_ip}:{port}")
+              discovered_ports.append(str(port))
+              portx.close()
 
        except (ConnectionRefusedError, AttributeError, OSError):
           pass
